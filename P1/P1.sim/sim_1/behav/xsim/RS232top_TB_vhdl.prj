@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Archivos/Sources/BitCounter.vhd" \
+"../../../../Archivos/Sources/Count.vhd" \
+"../../../../Archivos/Sources/RS232_RX.vhd" \
+"../../../../Archivos/Sources/RS232_TX.vhd" \
+"../../../../Archivos/Sources/RS232top.vhd" \
+"../../../../Archivos/Sources/ShiftRegister.vhd" \
+"../../../../Archivos/Simulation/tb_RS232top.vhd" \
+
+# Do not sort compile order
+nosort

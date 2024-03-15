@@ -1,0 +1,3 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alvaro/Proyectos_vivado/LCSE/P2/Terna/Terna.ip_user_files/ipstatic/hdl/fifo_generator_v13_2_rfs.vhd" into library fifo_generator_v13_2_1
+ERROR: [VRFC 10-4982] syntax error near 'ERROR' [C:/Users/Alvaro/Proyectos_vivado/LCSE/P2/Terna/Terna.ip_user_files/ipstatic/hdl/fifo_generator_v13_2_rfs.vhd:1]
+INFO: [VRFC 10-8704] VHDL file 'C:/Users/Alvaro/Proyectos_vivado/LCSE/P2/Terna/Terna.ip_user_files/ipstatic/hdl/fifo_generator_v13_2_rfs.vhd' is ignored due to errors

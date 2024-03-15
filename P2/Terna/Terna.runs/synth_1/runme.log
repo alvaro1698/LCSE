@@ -1,0 +1,597 @@
+
+*** Running vivado
+    with args -log nexys_PIC.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source nexys_PIC.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source nexys_PIC.tcl -notrace
+Command: synth_design -top nexys_PIC -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 23720 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 406.660 ; gain = 101.949
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'nexys_PIC' [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/Downloads/Nexys_PICfsdf/Nexys_PIC.vhd:51]
+INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.runs/synth_1/.Xil/Vivado-20640-DESKTOP-NE7H09B/realtime/clk_wiz_0_stub.vhdl:5' bound to instance 'clk_20MHz' of component 'clk_wiz_0' [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/Downloads/Nexys_PICfsdf/Nexys_PIC.vhd:134]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.runs/synth_1/.Xil/Vivado-20640-DESKTOP-NE7H09B/realtime/clk_wiz_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'PICtop' declared at 'C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/Downloads/Nexys_PICfsdf/PICtop.vhd:7' bound to instance 'UUT' of component 'PICtop' [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/Downloads/Nexys_PICfsdf/Nexys_PIC.vhd:140]
+INFO: [Synth 8-638] synthesizing module 'PICtop' [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/Downloads/Nexys_PICfsdf/PICtop.vhd:26]
+INFO: [Synth 8-3491] module 'RS232top' declared at 'C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/Downloads/RS232Top.vhd:6' bound to instance 'RS232_PHY' of component 'RS232top' [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/Downloads/Nexys_PICfsdf/PICtop.vhd:115]
+INFO: [Synth 8-638] synthesizing module 'RS232top' [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/Downloads/RS232Top.vhd:26]
+INFO: [Synth 8-3491] module 'RS232_TX' declared at 'C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/Downloads/Transmitter.vhd:7' bound to instance 'Transmitter' of component 'RS232_TX' [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/Downloads/RS232Top.vhd:93]
+INFO: [Synth 8-638] synthesizing module 'RS232_TX' [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/Downloads/Transmitter.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'RS232_TX' (1#1) [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/Downloads/Transmitter.vhd:17]
+INFO: [Synth 8-3491] module 'RS232_RX' declared at 'C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/Downloads/Receiver.vhd:34' bound to instance 'Receiver' of component 'RS232_RX' [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/Downloads/RS232Top.vhd:102]
+INFO: [Synth 8-638] synthesizing module 'RS232_RX' [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/Downloads/Receiver.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'RS232_RX' (2#1) [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/Downloads/Receiver.vhd:45]
+INFO: [Synth 8-3491] module 'ShiftRegister' declared at 'C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/Downloads/ShiftRegister.vhd:12' bound to instance 'Shift' of component 'ShiftRegister' [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/Downloads/RS232Top.vhd:111]
+INFO: [Synth 8-638] synthesizing module 'ShiftRegister' [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/Downloads/ShiftRegister.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'ShiftRegister' (3#1) [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/Downloads/ShiftRegister.vhd:21]
+INFO: [Synth 8-3491] module 'fifo' declared at 'C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.runs/synth_1/.Xil/Vivado-20640-DESKTOP-NE7H09B/realtime/fifo_stub.vhdl:5' bound to instance 'Internal_memory' of component 'fifo' [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/Downloads/RS232Top.vhd:121]
+INFO: [Synth 8-638] synthesizing module 'fifo' [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.runs/synth_1/.Xil/Vivado-20640-DESKTOP-NE7H09B/realtime/fifo_stub.vhdl:19]
+INFO: [Synth 8-256] done synthesizing module 'RS232top' (4#1) [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/Downloads/RS232Top.vhd:26]
+INFO: [Synth 8-3491] module 'RAMTop' declared at 'C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/P2a/RAMTop.vhd:7' bound to instance 'RAM_PHY' of component 'RAMTop' [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/Downloads/Nexys_PICfsdf/PICtop.vhd:130]
+INFO: [Synth 8-638] synthesizing module 'RAMTop' [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/P2a/RAMTop.vhd:21]
+INFO: [Synth 8-3491] module 'RAMe' declared at 'C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/P2a/RAMe.vhd:7' bound to instance 'UUT1' of component 'RAMe' [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/P2a/RAMTop.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'RAMe' [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/P2a/RAMe.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'RAMe' (5#1) [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/P2a/RAMe.vhd:20]
+INFO: [Synth 8-3491] module 'RAMg' declared at 'C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/P2a/RAMg.vhd:8' bound to instance 'UUT2' of component 'RAMg' [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/P2a/RAMTop.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'RAMg' [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/P2a/RAMg.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'RAMg' (6#1) [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/P2a/RAMg.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'RAMTop' (7#1) [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/P2a/RAMTop.vhd:21]
+INFO: [Synth 8-3491] module 'DMA' declared at 'C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/P2a/DMA.vhd:35' bound to instance 'DMA_PHY' of component 'DMA' [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/Downloads/Nexys_PICfsdf/PICtop.vhd:142]
+INFO: [Synth 8-638] synthesizing module 'DMA' [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/P2a/DMA.vhd:57]
+INFO: [Synth 8-256] done synthesizing module 'DMA' (8#1) [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/P2a/DMA.vhd:57]
+INFO: [Synth 8-256] done synthesizing module 'PICtop' (9#1) [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/Downloads/Nexys_PICfsdf/PICtop.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'nexys_PIC' (10#1) [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/Downloads/Nexys_PICfsdf/Nexys_PIC.vhd:51]
+WARNING: [Synth 8-3917] design nexys_PIC has port AN[7] driven by constant 1
+WARNING: [Synth 8-3917] design nexys_PIC has port AN[6] driven by constant 1
+WARNING: [Synth 8-3917] design nexys_PIC has port AN[5] driven by constant 1
+WARNING: [Synth 8-3917] design nexys_PIC has port AN[4] driven by constant 1
+WARNING: [Synth 8-3917] design nexys_PIC has port AN[3] driven by constant 1
+WARNING: [Synth 8-3917] design nexys_PIC has port AN[2] driven by constant 1
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 459.766 ; gain = 155.055
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 459.766 ; gain = 155.055
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.runs/synth_1/.Xil/Vivado-20640-DESKTOP-NE7H09B/dcp2/fifo_in_context.xdc] for cell 'UUT/RS232_PHY/Internal_memory'
+Finished Parsing XDC File [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.runs/synth_1/.Xil/Vivado-20640-DESKTOP-NE7H09B/dcp2/fifo_in_context.xdc] for cell 'UUT/RS232_PHY/Internal_memory'
+Parsing XDC File [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.runs/synth_1/.Xil/Vivado-20640-DESKTOP-NE7H09B/dcp3/clk_wiz_0_in_context.xdc] for cell 'clk_20MHz'
+Finished Parsing XDC File [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.runs/synth_1/.Xil/Vivado-20640-DESKTOP-NE7H09B/dcp3/clk_wiz_0_in_context.xdc] for cell 'clk_20MHz'
+Parsing XDC File [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/constrs_1/imports/230211/Nexys_PIC.xdc]
+Finished Parsing XDC File [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/constrs_1/imports/230211/Nexys_PIC.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/constrs_1/imports/230211/Nexys_PIC.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/nexys_PIC_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/nexys_PIC_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 817.016 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 817.016 ; gain = 512.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 817.016 ; gain = 512.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for CLK100MHZ. (constraint file  C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.runs/synth_1/.Xil/Vivado-20640-DESKTOP-NE7H09B/dcp3/clk_wiz_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for CLK100MHZ. (constraint file  C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.runs/synth_1/.Xil/Vivado-20640-DESKTOP-NE7H09B/dcp3/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property DONT_TOUCH = true for UUT/RS232_PHY/Internal_memory. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for clk_20MHz. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 817.016 ; gain = 512.305
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "EOT" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "estado" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Valid_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "estado_receptor" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "estado_receptor" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[63]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[62]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[61]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[60]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[59]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[58]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[57]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[56]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[55]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[54]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[53]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[52]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[51]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[50]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[49]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[48]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[47]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[46]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[45]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[44]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[43]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[42]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[41]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[40]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[39]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[38]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[37]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[36]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[35]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[34]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[33]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[32]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "contents_ram_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'DMA'
+INFO: [Synth 8-5544] ROM "Databus_reg0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element contador_reg was removed.  [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/Downloads/Nexys_PICfsdf/Nexys_PIC.vhd:129]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                             0000 |                             0000
+                startrec |                             0001 |                             0001
+                     rw1 |                             0010 |                             0010
+                     rw2 |                             0011 |                             0011
+              rtncontrol |                             0100 |                             0101
+                     rw3 |                             0101 |                             0100
+                  endrec |                             0110 |                             0110
+              starttrans |                             0111 |                             0111
+                  sendt1 |                             1000 |                             1000
+                   wait1 |                             1001 |                             1001
+                  sendt2 |                             1010 |                             1010
+                   wait2 |                             1011 |                             1011
+                endtrans |                             1100 |                             1100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'sequential' in module 'DMA'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 817.016 ; gain = 512.305
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 70    
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 15    
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 11    
+	   4 Input      8 Bit        Muxes := 1     
+	  13 Input      8 Bit        Muxes := 4     
+	   3 Input      4 Bit        Muxes := 1     
+	  25 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	  13 Input      2 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 81    
+	   4 Input      1 Bit        Muxes := 4     
+	  13 Input      1 Bit        Muxes := 7     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module nexys_PIC 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 7     
+Module RS232_TX 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 3     
+	   3 Input      4 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module RS232_RX 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 3     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+	   4 Input      1 Bit        Muxes := 4     
+Module ShiftRegister 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+Module RS232top 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
+Module RAMe 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 64    
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 64    
+Module RAMg 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+Module RAMTop 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 3     
+Module DMA 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	  13 Input      8 Bit        Muxes := 4     
+	  25 Input      4 Bit        Muxes := 1     
+	  13 Input      2 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 7     
+Module PICtop 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "UUT/RS232_PHY/Receiver/Valid_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RS232_PHY/Receiver/estado_receptor" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[49]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[63]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[62]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[61]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[60]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[59]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[58]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[57]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[56]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[55]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[54]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[53]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[52]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[51]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[50]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[48]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[47]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[46]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[45]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[44]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[43]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[42]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UUT/RAM_PHY/UUT1/contents_ram_reg[41]" won't be mapped to RAM because it is too sparse
+INFO: [Common 17-14] Message 'Synth 8-5546' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-6014] Unused sequential element contador_reg was removed.  [C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.srcs/sources_1/imports/Downloads/Nexys_PICfsdf/Nexys_PIC.vhd:129]
+WARNING: [Synth 8-3917] design nexys_PIC has port AN[7] driven by constant 1
+WARNING: [Synth 8-3917] design nexys_PIC has port AN[6] driven by constant 1
+WARNING: [Synth 8-3917] design nexys_PIC has port AN[5] driven by constant 1
+WARNING: [Synth 8-3917] design nexys_PIC has port AN[4] driven by constant 1
+WARNING: [Synth 8-3917] design nexys_PIC has port AN[3] driven by constant 1
+WARNING: [Synth 8-3917] design nexys_PIC has port AN[2] driven by constant 1
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 817.016 ; gain = 512.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+-----------------------------------+-----------+----------------------+-------------------------------+
+|Module Name | RTL Object                        | Inference | Size (Depth x Width) | Primitives                    | 
++------------+-----------------------------------+-----------+----------------------+-------------------------------+
+|nexys_PIC   | UUT/RAM_PHY/UUT2/contents_ram_reg | Implied   | 256 x 8              | RAM64X1S x 8  RAM128X1S x 8   | 
++------------+-----------------------------------+-----------+----------------------+-------------------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk_20MHz/clk_out1' to pin 'clk_20MHz/bbstub_clk_out1/O'
+INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 817.016 ; gain = 512.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 826.625 ; gain = 521.914
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++------------+-----------------------------------+-----------+----------------------+-------------------------------+
+|Module Name | RTL Object                        | Inference | Size (Depth x Width) | Primitives                    | 
++------------+-----------------------------------+-----------+----------------------+-------------------------------+
+|nexys_PIC   | UUT/RAM_PHY/UUT2/contents_ram_reg | Implied   | 256 x 8              | RAM64X1S x 8  RAM128X1S x 8   | 
++------------+-----------------------------------+-----------+----------------------+-------------------------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 850.871 ; gain = 546.160
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 850.871 ; gain = 546.160
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 850.871 ; gain = 546.160
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 850.871 ; gain = 546.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 850.871 ; gain = 546.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 850.871 ; gain = 546.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 850.871 ; gain = 546.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
+|2     |fifo          |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-----------------+------+
+|      |Cell             |Count |
++------+-----------------+------+
+|1     |clk_wiz_0_bbox_0 |     1|
+|2     |fifo_bbox_1      |     1|
+|3     |CARRY4           |     8|
+|4     |LUT1             |     3|
+|5     |LUT2             |    31|
+|6     |LUT3             |    14|
+|7     |LUT4             |    57|
+|8     |LUT5             |    84|
+|9     |LUT6             |   257|
+|10    |MUXF7            |    65|
+|11    |MUXF8            |    32|
+|12    |RAM128X1S        |     8|
+|13    |RAM64X1S         |     8|
+|14    |FDCE             |   611|
+|15    |FDPE             |     9|
+|16    |FDRE             |     2|
+|17    |IBUF             |    21|
+|18    |OBUF             |    33|
++------+-----------------+------+
+
+Report Instance Areas: 
++------+------------------+--------------+------+
+|      |Instance          |Module        |Cells |
++------+------------------+--------------+------+
+|1     |top               |              |  1255|
+|2     |  UUT             |PICtop        |  1096|
+|3     |    DMA_PHY       |DMA           |   181|
+|4     |    RAM_PHY       |RAMTop        |   796|
+|5     |      UUT1        |RAMe          |   767|
+|6     |      UUT2        |RAMg          |    29|
+|7     |    RS232_PHY     |RS232top      |   117|
+|8     |      Receiver    |RS232_RX      |    40|
+|9     |      Shift       |ShiftRegister |     8|
+|10    |      Transmitter |RS232_TX      |    47|
++------+------------------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 850.871 ; gain = 546.160
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 850.871 ; gain = 188.910
+Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 850.871 ; gain = 546.160
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 142 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 16 instances were transformed.
+  RAM128X1S => RAM128X1S (MUXF7, RAMS64E, RAMS64E): 8 instances
+  RAM64X1S => RAM64X1S (RAMS64E): 8 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+160 Infos, 14 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 850.871 ; gain = 557.645
+INFO: [Common 17-1381] The checkpoint 'C:/Users/rafer/Desktop/Master/PrimerCuatri/LCSE/230211copia/p2230211/p2230211.runs/synth_1/nexys_PIC.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file nexys_PIC_utilization_synth.rpt -pb nexys_PIC_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 850.871 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 13 14:36:35 2023...

@@ -1,0 +1,41 @@
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 14786600facb4d7f8b6223d378e78a7a --debug typical --relax --mt 2 -L fifo_generator_v13_1_4 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot TB_nexys_PIC_behav xil_defaultlib.TB_nexys_PIC xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-597] element index -1 into num_read_words_dc is out of bounds [/wrk/2017.2/nightly/2017_06_15_1909853/packages/customer/vivado/data/ip/xilinx/fifo_generator_v13_1/simulation/fifo_generator_vlog_beh.v:8146]
+WARNING: [VRFC 10-597] element index -1 into num_write_words_dc is out of bounds [/wrk/2017.2/nightly/2017_06_15_1909853/packages/customer/vivado/data/ip/xilinx/fifo_generator_v13_1/simulation/fifo_generator_vlog_beh.v:8196]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.pic_pkg
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=8.5,C...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling architecture behavioral of entity xil_defaultlib.RS232_TX [rs232_tx_default]
+Compiling architecture behavioral of entity xil_defaultlib.RS232_RX [rs232_rx_default]
+Compiling architecture behavioral of entity xil_defaultlib.ShiftRegister [shiftregister_default]
+Compiling module fifo_generator_v13_1_4.fifo_generator_v13_1_4_bhv_ver_s...
+Compiling module fifo_generator_v13_1_4.fifo_generator_v13_1_4_bhv_ver_p...
+Compiling module fifo_generator_v13_1_4.fifo_generator_v13_1_4_CONV_VER(...
+Compiling module fifo_generator_v13_1_4.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_1_4.fifo_generator_v13_1_4(C_COMMON_...
+Compiling module xil_defaultlib.fifo
+Compiling architecture rtl of entity xil_defaultlib.RS232top [rs232top_default]
+Compiling architecture behavior of entity xil_defaultlib.RAMe [rame_default]
+Compiling architecture behavior of entity xil_defaultlib.RAMg [ramg_default]
+Compiling architecture behavior of entity xil_defaultlib.RAMTop [ramtop_default]
+Compiling architecture behavioral of entity xil_defaultlib.DMA [dma_default]
+Compiling architecture behavior of entity xil_defaultlib.PICtop [pictop_default]
+Compiling architecture a_behavior of entity xil_defaultlib.nexys_PIC [nexys_pic_default]
+Compiling architecture testbench of entity xil_defaultlib.tb_nexys_pic
+Built simulation snapshot TB_nexys_PIC_behav

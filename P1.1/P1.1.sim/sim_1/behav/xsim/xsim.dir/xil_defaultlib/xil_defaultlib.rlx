@@ -1,0 +1,17 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/Alvaro/Proyectos_vivado/LCSE/P1.1/Archivos/Simulation/tb_RS232top.vhd,1696847638,vhdl,,,,rs232top_tb,,,,,,,,
+C:/Users/Alvaro/Proyectos_vivado/LCSE/P1.1/Archivos/Simulation/tb_nexys_RS232.vhd,1696850028,vhdl,,,,tb_nexys_rs232,,,,,,,,
+C:/Users/Alvaro/Proyectos_vivado/LCSE/P1.1/Archivos/Sources/BitCounter.vhd,1696853480,vhdl,,,,bitcounter,,,,,,,,
+C:/Users/Alvaro/Proyectos_vivado/LCSE/P1.1/Archivos/Sources/Count.vhd,1696766054,vhdl,,,,count,,,,,,,,
+C:/Users/Alvaro/Proyectos_vivado/LCSE/P1.1/Archivos/Sources/Nexys_RS232.vhd,1696179376,vhdl,,,,nexys_rs232,,,,,,,,
+C:/Users/Alvaro/Proyectos_vivado/LCSE/P1.1/Archivos/Sources/RS232_RX.vhd,1696852710,vhdl,,,,rs232_rx,,,,,,,,
+C:/Users/Alvaro/Proyectos_vivado/LCSE/P1.1/Archivos/Sources/RS232_TX.vhd,1696846590,vhdl,,,,rs232_tx,,,,,,,,
+C:/Users/Alvaro/Proyectos_vivado/LCSE/P1.1/Archivos/Sources/RS232top.vhd,1696179366,vhdl,,,,rs232top,,,,,,,,
+C:/Users/Alvaro/Proyectos_vivado/LCSE/P1.1/Archivos/Sources/ShiftRegister.vhd,1696584306,vhdl,,,,shiftregister,,,,,,,,
+C:/Users/Alvaro/Proyectos_vivado/LCSE/P1.1/P1.1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1710529596,verilog,,,,clk_wiz_0,,,../../../../P1.1.ip_user_files/ipstatic,,,,,
+C:/Users/Alvaro/Proyectos_vivado/LCSE/P1.1/P1.1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1710529596,verilog,,C:/Users/Alvaro/Proyectos_vivado/LCSE/P1.1/P1.1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../P1.1.ip_user_files/ipstatic,,,,,
+C:/Users/Alvaro/Proyectos_vivado/LCSE/P1.1/P1.1.gen/sources_1/ip/fifo/sim/fifo.v,1710530971,verilog,,C:/Users/Alvaro/Proyectos_vivado/LCSE/P1.1/P1.1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,,fifo,,,../../../../P1.1.ip_user_files/ipstatic,,,,,
+C:/Users/Alvaro/Proyectos_vivado/LCSE/P1.1/P1.1.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,

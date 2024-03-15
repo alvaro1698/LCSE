@@ -1,0 +1,11 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/Alvaro/Proyectos_vivado/LCSE/Mejora_WL/Archivos/Simulation/tb_RS232top.vhd,1697190828,vhdl,,,,rs232top_tb,,,,,,,,
+C:/Users/Alvaro/Proyectos_vivado/LCSE/Mejora_WL/Archivos/Sources/BitCounter.vhd,1696939284,vhdl,,,,bitcounter,,,,,,,,
+C:/Users/Alvaro/Proyectos_vivado/LCSE/Mejora_WL/Archivos/Sources/Count.vhd,1696936220,vhdl,,,,count,,,,,,,,
+C:/Users/Alvaro/Proyectos_vivado/LCSE/Mejora_WL/Archivos/Sources/RS232_RX.vhd,1696937476,vhdl,,,,rs232_rx,,,,,,,,
+C:/Users/Alvaro/Proyectos_vivado/LCSE/Mejora_WL/Archivos/Sources/RS232_TX.vhd,1696937620,vhdl,,,,rs232_tx,,,,,,,,
+C:/Users/Alvaro/Proyectos_vivado/LCSE/Mejora_WL/Archivos/Sources/RS232top.vhd,1696938492,vhdl,,,,rs232top,,,,,,,,
+C:/Users/Alvaro/Proyectos_vivado/LCSE/Mejora_WL/Archivos/Sources/ShiftRegister.vhd,1696584306,vhdl,,,,shiftregister,,,,,,,,

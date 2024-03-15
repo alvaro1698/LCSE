@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog fifo_generator_v13_2_1  --include "../../../../Terna.ip_user_files/ipstatic" \
+"../../../../Terna.ip_user_files/ipstatic/simulation/fifo_generator_vlog_beh.v" \
+"../../../../Terna.ip_user_files/ipstatic/hdl/fifo_generator_v13_2_rfs.v" \
+
+verilog xil_defaultlib  --include "../../../../Terna.ip_user_files/ipstatic" \
+"../../../../Terna.gen/sources_1/ip/fifo_3/sim/fifo.v" \
+"../../../../Terna.gen/sources_1/ip/clk_wiz_0_2/clk_wiz_0_clk_wiz.v" \
+"../../../../Terna.gen/sources_1/ip/clk_wiz_0_2/clk_wiz_0.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

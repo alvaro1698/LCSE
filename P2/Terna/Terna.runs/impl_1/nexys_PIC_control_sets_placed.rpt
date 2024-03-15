@@ -1,0 +1,142 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Dec 13 14:37:38 2023
+| Host         : DESKTOP-NE7H09B running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file nexys_PIC_control_sets_placed.rpt
+| Design       : nexys_PIC
+| Device       : xc7a100t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    78 |
+| Unused register locations in slices containing registers |    78 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               2 |            2 |
+| No           | No                    | Yes                    |              64 |           23 |
+| No           | Yes                   | No                     |              12 |            2 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |             564 |          182 |
+| Yes          | Yes                   | No                     |              24 |            6 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++--------------------------+-----------------------------------------------------------------------------------------------------------------------------------+------------------+------------------+----------------+
+|       Clock Signal       |                                                           Enable Signal                                                           | Set/Reset Signal | Slice Load Count | Bel Load Count |
++--------------------------+-----------------------------------------------------------------------------------------------------------------------------------+------------------+------------------+----------------+
+|  clk_20MHz/inst/clk_out1 |                                                                                                                                   |                  |                2 |              2 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/FSM_sequential_current_state[3]_i_1_n_0                                                                               | BTNU_IBUF        |                2 |              4 |
+|  clk_20MHz/inst/clk_out1 | UUT/RS232_PHY/Receiver/contador_bit[2]_i_1_n_0                                                                                    | BTNU_IBUF        |                1 |              4 |
+|  clk_20MHz/inst/clk_out1 | UUT/RS232_PHY/Transmitter/estado0                                                                                                 | BTNU_IBUF        |                1 |              4 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[9][0][0]                                                                                             | BTNU_IBUF        |                8 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/RS232_PHY/Transmitter/dato_TDATA[7]_i_1_n_0                                                                                   | BTNU_IBUF        |                2 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/RS232_PHY/Receiver/E[0]                                                                                                       | BTNU_IBUF        |                2 |              8 |
+|  clk_20MHz/inst/clk_out1 | i_data_out[7]_i_1_n_0                                                                                                             | BTNU_IBUF        |                3 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[16][3]                                                                                               |                  |                2 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[48][0][0]                                                                                            | BTNU_IBUF        |                3 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/E[0]                                                                                                                  | BTNU_IBUF        |                3 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[50][0][0]                                                                                            | BTNU_IBUF        |                1 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[0][0][0]                                                                                             | BTNU_IBUF        |                2 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[11][0][0]                                                                                            | BTNU_IBUF        |                2 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/Data_FF_reg[0][0]                                                                                                     | BTNU_IBUF        |                2 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[10][0][0]                                                                                            | BTNU_IBUF        |                1 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[62][0][0]                                                                                            | BTNU_IBUF        |                5 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[59][0][0]                                                                                            | BTNU_IBUF        |                2 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[60][0][0]                                                                                            | BTNU_IBUF        |                3 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[63][0][0]                                                                                            | BTNU_IBUF        |                5 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[13][0][0]                                                                                            | BTNU_IBUF        |                2 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/RS232_PHY/Internal_memory/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/E[0]                        | BTNU_IBUF        |                2 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[1][0][0]                                                                                             | BTNU_IBUF        |                2 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[27][0][0]                                                                                            | BTNU_IBUF        |                2 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[28][0][0]                                                                                            | BTNU_IBUF        |                2 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/RS232_PHY/Internal_memory/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gc0.count_reg[3][0] | BTNU_IBUF        |                2 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[24][0][0]                                                                                            | BTNU_IBUF        |                1 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[30][0][0]                                                                                            | BTNU_IBUF        |                4 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/RS232_PHY/Internal_memory/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/E[0]                | BTNU_IBUF        |                2 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[26][0][0]                                                                                            | BTNU_IBUF        |                1 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[31][0][0]                                                                                            | BTNU_IBUF        |                7 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[32][0][0]                                                                                            | BTNU_IBUF        |                1 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[12][0][0]                                                                                            | BTNU_IBUF        |                1 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[25][0][0]                                                                                            | BTNU_IBUF        |                2 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[29][0][0]                                                                                            | BTNU_IBUF        |                3 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[14][0][0]                                                                                            | BTNU_IBUF        |                1 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[15][0][0]                                                                                            | BTNU_IBUF        |                2 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[37][0][0]                                                                                            | BTNU_IBUF        |                1 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[51][0][0]                                                                                            | BTNU_IBUF        |                3 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[6][0][0]                                                                                             | BTNU_IBUF        |                2 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[40][0][0]                                                                                            | BTNU_IBUF        |                2 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[47][0][0]                                                                                            | BTNU_IBUF        |                7 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[53][0][0]                                                                                            | BTNU_IBUF        |                1 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[56][0][0]                                                                                            | BTNU_IBUF        |                1 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[52][0][0]                                                                                            | BTNU_IBUF        |                1 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[38][0][0]                                                                                            | BTNU_IBUF        |                1 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[41][0][0]                                                                                            | BTNU_IBUF        |                1 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[36][0][0]                                                                                            | BTNU_IBUF        |                3 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[4][0][0]                                                                                             | BTNU_IBUF        |                2 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[49][0][0]                                                                                            | BTNU_IBUF        |                2 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[5][0][0]                                                                                             | BTNU_IBUF        |                3 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[61][0][0]                                                                                            | BTNU_IBUF        |                3 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[39][0][0]                                                                                            | BTNU_IBUF        |                1 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[33][0][0]                                                                                            | BTNU_IBUF        |                2 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[8][0][0]                                                                                             | BTNU_IBUF        |                2 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[44][0][0]                                                                                            | BTNU_IBUF        |                4 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[54][0][0]                                                                                            | BTNU_IBUF        |                3 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[34][0][0]                                                                                            | BTNU_IBUF        |                3 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[57][0][0]                                                                                            | BTNU_IBUF        |                3 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[7][0][0]                                                                                             | BTNU_IBUF        |                3 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[45][0][0]                                                                                            | BTNU_IBUF        |                7 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[46][0][0]                                                                                            | BTNU_IBUF        |                4 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[43][0][0]                                                                                            | BTNU_IBUF        |                5 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[58][0][0]                                                                                            | BTNU_IBUF        |                2 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[42][0][0]                                                                                            | BTNU_IBUF        |                1 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[55][0][0]                                                                                            | BTNU_IBUF        |                2 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[35][0][0]                                                                                            | BTNU_IBUF        |                2 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[3][0][0]                                                                                             | BTNU_IBUF        |                2 |              8 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[16][0][0]                                                                                            | BTNU_IBUF        |                2 |              9 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[17][0][0]                                                                                            | BTNU_IBUF        |                2 |              9 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[18][0][0]                                                                                            | BTNU_IBUF        |                3 |              9 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[23][0][0]                                                                                            | BTNU_IBUF        |                3 |              9 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[22][0][0]                                                                                            | BTNU_IBUF        |                5 |              9 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[19][0][0]                                                                                            | BTNU_IBUF        |                3 |              9 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[21][0][0]                                                                                            | BTNU_IBUF        |                4 |              9 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[20][0][0]                                                                                            | BTNU_IBUF        |                2 |              9 |
+|  clk_20MHz/inst/clk_out1 | UUT/DMA_PHY/contents_ram_reg[16][3]_0                                                                                             |                  |                4 |             16 |
+|  clk_20MHz/inst/clk_out1 |                                                                                                                                   | BTNU_IBUF        |               25 |             76 |
++--------------------------+-----------------------------------------------------------------------------------------------------------------------------------+------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 2      |                     1 |
+| 4      |                     3 |
+| 8      |                    64 |
+| 9      |                     8 |
+| 16+    |                     2 |
++--------+-----------------------+
+
+

@@ -1,0 +1,20 @@
+# compile vhdl design source files
+vhdl fifo_generator_v13_2_1  \
+"../../../../Terna.ip_user_files/ipstatic/hdl/fifo_generator_v13_2_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../Terna.srcs/sources_1/imports/P2a/DMA.vhd" \
+"../../../../Terna.srcs/sources_1/imports/Downloads/Nexys_PICfsdf/Nexys_PIC.vhd" \
+"../../../../Terna.srcs/sources_1/imports/P2a/PIC_pkg.vhd" \
+"../../../../Terna.srcs/sources_1/imports/Downloads/Nexys_PICfsdf/PICtop.vhd" \
+"../../../../Terna.srcs/sources_1/imports/P2a/RAMTop.vhd" \
+"../../../../Terna.srcs/sources_1/imports/P2a/RAMe.vhd" \
+"../../../../Terna.srcs/sources_1/imports/P2a/RAMg.vhd" \
+"../../../../Terna.srcs/sources_1/imports/Downloads/RS232Top.vhd" \
+"../../../../Terna.srcs/sources_1/imports/Downloads/Receiver.vhd" \
+"../../../../Terna.srcs/sources_1/imports/Downloads/ShiftRegister.vhd" \
+"../../../../Terna.srcs/sources_1/imports/Downloads/Transmitter.vhd" \
+"../../../../Terna.srcs/sim_1/imports/NexyxPIC/tb_nexys_PIC.vhd" \
+
+# Do not sort compile order
+nosort

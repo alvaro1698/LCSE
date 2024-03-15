@@ -1,0 +1,14 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alvaro/Proyectos_vivado/LCSE/Mejora_WL/Archivos/Sources/BitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BitCounter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alvaro/Proyectos_vivado/LCSE/Mejora_WL/Archivos/Sources/Count.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Count'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alvaro/Proyectos_vivado/LCSE/Mejora_WL/Archivos/Sources/RS232_RX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RS232_RX'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alvaro/Proyectos_vivado/LCSE/Mejora_WL/Archivos/Sources/RS232_TX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RS232_TX'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alvaro/Proyectos_vivado/LCSE/Mejora_WL/Archivos/Sources/RS232top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RS232top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alvaro/Proyectos_vivado/LCSE/Mejora_WL/Archivos/Sources/ShiftRegister.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ShiftRegister'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Alvaro/Proyectos_vivado/LCSE/Mejora_WL/Archivos/Simulation/tb_RS232top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RS232top_TB'

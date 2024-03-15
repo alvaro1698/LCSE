@@ -1,0 +1,16 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../p2230211.srcs/sources_1/imports/P2a/DMA.vhd"
+vhdl xil_defaultlib  "../../../p2230211.srcs/sources_1/imports/Downloads/Nexys_PICfsdf/Nexys_PIC.vhd"
+vhdl xil_defaultlib  "../../../p2230211.srcs/sources_1/imports/P2a/PIC_pkg.vhd"
+vhdl xil_defaultlib  "../../../p2230211.srcs/sources_1/imports/Downloads/Nexys_PICfsdf/PICtop.vhd"
+vhdl xil_defaultlib  "../../../p2230211.srcs/sources_1/imports/P2a/RAMTop.vhd"
+vhdl xil_defaultlib  "../../../p2230211.srcs/sources_1/imports/P2a/RAMe.vhd"
+vhdl xil_defaultlib  "../../../p2230211.srcs/sources_1/imports/P2a/RAMg.vhd"
+vhdl xil_defaultlib  "../../../p2230211.srcs/sources_1/imports/Downloads/RS232Top.vhd"
+vhdl xil_defaultlib  "../../../p2230211.srcs/sources_1/imports/Downloads/Receiver.vhd"
+vhdl xil_defaultlib  "../../../p2230211.srcs/sources_1/imports/Downloads/ShiftRegister.vhd"
+vhdl xil_defaultlib  "../../../p2230211.srcs/sources_1/imports/Downloads/Transmitter.vhd"
+vhdl xil_defaultlib  "../../../p2230211.srcs/sim_1/imports/NexyxPIC/tb_nexys_PIC.vhd"
+
+# Do not sort compile order
+nosort
